@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding='UTF-8'?>
+<CAMsetup>
+	<thisfile>I:\Electronics\Projects\Hardware\Gerbers\FV1_dev_kit\rev10\basestarfv1_v1.camset</thisfile>
+	<boardlayers>
+		<layer type="PasteMask" H="35" Er="0.000">
+			<filename>i:\Electronics\Projects\Hardware\Gerbers\FV1_dev_kit\rev10\fv1_dev_kit-F.Paste.gtp</filename>
+			<filedisp>fv1_dev_kit-F.Paste.gtp</filedisp>
+		</layer>
+		<layer type="Silkscreen" H="35" Er="0.000">
+			<filename>i:\Electronics\Projects\Hardware\Gerbers\FV1_dev_kit\rev10\fv1_dev_kit-F.SilkS.gto</filename>
+			<filedisp>fv1_dev_kit-F.SilkS.gto</filedisp>
+		</layer>
+		<layer type="SolderMask" H="35" Er="0.000">
+			<filename>i:\Electronics\Projects\Hardware\Gerbers\FV1_dev_kit\rev10\fv1_dev_kit-F.Mask.gts</filename>
+			<filedisp>fv1_dev_kit-F.Mask.gts</filedisp>
+		</layer>
+		<layer type="Copper" H="35" Negative="DefaultPositive">
+			<filename>i:\Electronics\Projects\Hardware\Gerbers\FV1_dev_kit\rev10\fv1_dev_kit-F.Cu.gtl</filename>
+			<filedisp>fv1_dev_kit-F.Cu.gtl</filedisp>
+		</layer>
+		<layer type="Prepreg" H="100" Er="4.800">
+		</layer>
+		<layer type="Copper" H="35" Negative="DefaultPositive">
+			<filename>i:\Electronics\Projects\Hardware\Gerbers\FV1_dev_kit\rev10\fv1_dev_kit-B.Cu.gbl</filename>
+			<filedisp>fv1_dev_kit-B.Cu.gbl</filedisp>
+		</layer>
+		<layer type="SolderMask" H="35" Er="0.000">
+			<filename>i:\Electronics\Projects\Hardware\Gerbers\FV1_dev_kit\rev10\fv1_dev_kit-B.Mask.gbs</filename>
+			<filedisp>fv1_dev_kit-B.Mask.gbs</filedisp>
+		</layer>
+		<layer type="Silkscreen" H="35" Er="0.000">
+			<filename>i:\Electronics\Projects\Hardware\Gerbers\FV1_dev_kit\rev10\fv1_dev_kit-B.SilkS.gbo</filename>
+			<filedisp>fv1_dev_kit-B.SilkS.gbo</filedisp>
+		</layer>
+		<layer type="PasteMask" H="35" Er="0.000">
+			<filename>i:\Electronics\Projects\Hardware\Gerbers\FV1_dev_kit\rev10\fv1_dev_kit-B.Paste.gbp</filename>
+			<filedisp>fv1_dev_kit-B.Paste.gbp</filedisp>
+		</layer>
+		<layer type="BoardOutline" H="380">
+			<filename>i:\Electronics\Projects\Hardware\Gerbers\FV1_dev_kit\rev10\fv1_dev_kit-Edge.Cuts.gm1</filename>
+			<filedisp>fv1_dev_kit-Edge.Cuts.gm1</filedisp>
+		</layer>
+	</boardlayers>
+
+	<boarddrillplates>
+		<drillplate from="top" to="btm" plated="no">
+			<filename>i:\Electronics\Projects\Hardware\Gerbers\FV1_dev_kit\rev10\fv1_dev_kit-NPTH.drl</filename>
+			<filedisp>fv1_dev_kit-NPTH.drl</filedisp>
+		</drillplate>
+		<drillplate from="top" to="btm" plated="yes">
+			<filename>i:\Electronics\Projects\Hardware\Gerbers\FV1_dev_kit\rev10\fv1_dev_kit.drl</filename>
+			<filedisp>fv1_dev_kit.drl</filedisp>
+		</drillplate>
+	</boarddrillplates>
+
+	<GerberSetup Incremental='no' OmitTrailingZeros='no' Milimeters='no' Len1='2' Len2='3'/>
+	<NCDSetup Guess='yes' Incremental='no' OmitTrailingZeros='no' Milimeters='no' Len1='2' Len2='3'/>
+	<IPC356Setup AutoUnits='1' AutoMagnitude='1' LongPinID='yes' CpyFromDrill='yes'/>
+	<PosSaveRestoreTab>
+	</PosSaveRestoreTab>
+
+</CAMsetup>
