@@ -2,7 +2,6 @@ Basestar FV-1
 ========
 
 Spin Semiconductor FV-1 DSP development board
-Link to project article
 
 
 Power requirement: 9VDC, 5.5/2.1mm center negative barrel plug
