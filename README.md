@@ -12,6 +12,8 @@ Board is a part of modular DSP dev system including Dev_LOOP (analog IO) and a d
 * [Dev_LOOP] (http://www.hexeguitar.com/diy/utility/devloop)
 * [FV-1 EEPROM Programmer] (http://www.diystompboxes.com/smfforum/index.php?topic=112333.0)
 
+###Project Site: http://www.hexeguitar.com/diy/utlilty/basefv1
+
 License:  design is released under 
 
 Creative Commons NonCommercial-ShareAlike 
